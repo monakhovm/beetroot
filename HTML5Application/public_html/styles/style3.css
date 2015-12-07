@@ -1,0 +1,48 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box   
+}
+body {
+    background-color: #5555ff;
+    border: 10px solid #3333aa;
+    height: 100vh;        
+}
+.background {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+.background::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.background:hover .city {
+    opacity: 0.5;
+}
+/*-----------------Col templates----------------*/
+.col-1 {
+    width: 25%;
+}
+.col-2 {
+    width: 50%;
+}
+.col-4 {
+    width: 100%;
+}
+/*-------------------Cities---------------------*/
+.city {
+    height: 75px;
+    border: 2px solid #dddddd;
+    float: left;
+    padding: 2% 3%;
+    margin: 0 auto;
+}
+.background .city:hover {
+    opacity: 1 ;
+}
+
+/*-------------------Cities---------------------*/

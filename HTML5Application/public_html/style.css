@@ -1,0 +1,125 @@
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+.logotip {
+    margin-right: 90px;
+    font-size: 150%;
+}
+ 
+.logo{
+    float: left;
+}
+
+.logo, sidebar, .articles{
+    display: inline-block;
+}
+.header>div {
+    display: inline-block;
+}
+sidebar{
+    width: 200px;
+    float:right;
+    word-wrap: break-word;
+}
+
+ul li {
+        display: inline;
+        margin-left: 35px;
+}
+
+main {
+    display: inline-block;
+	width: 1000px;
+}
+.main{
+    display: inline-block;
+    width: 200px;
+}
+.main-article {
+	padding-bottom: 20px;
+}
+.main-article h1 {
+    font-size: 130%;
+    font-stretch: normal;
+}
+.main-article .text {
+    
+}
+.article {
+    width: 100%;
+}
+.article-wrapper {
+    width: 387px;
+    display: inline-block;
+}
+.main-article-wrapper, .logo img{
+    width: 780px;        
+}
+
+footer>.footer{
+        background-image: linear-gradient(#eeeeff, #0000ff);
+        border-radius: 0 0 20px 20px;
+        height: 200px;
+}
+.footer div{
+    width:325px;
+    display: inline-block;
+}
+a {
+	text-decoration: none;
+	color: #000;
+        margin: 0 auto;
+}
+.button{
+    background: #ddf;
+    border-radius: 30px;
+    width: 120px;
+    padding: 10px;
+    text-decoration-line: underline;
+}
+sidebar .button{
+    width: 100%;
+    text-decoration-line: none;
+}
+sidebar h1 {
+    font-size: 100%;
+}
+sidebar div{
+    padding-bottom: 3px   0px; 
+}
+.text{
+    margin-bottom: 10px; 
+}
+article .button{
+    background-image: linear-gradient(#eeeeff, #0000ff);
+    text-decoration-color: white;
+}
+article .button a{
+    color: white;
+}
+sidebar .button{
+    background-image: linear-gradient(#ffeeee, #cc0077);
+}
+sidebar .button a {
+    color: white;
+    font-size: 120%;
+}
+.copyright{
+    width: 1000px;
+    margin: 0 410px;
+}
+.footer-div{
+    word-wrap: break-word;
+    text-align: center;
+    padding: 35px 0px;
+    color: white;
+}
+.footer h1{
+    font-size: 100%;
+}
+footer .button{
+    margin-top: 10px;
+    width: 100px;
+}

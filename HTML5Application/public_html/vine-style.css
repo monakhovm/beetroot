@@ -1,0 +1,101 @@
+/*---------------------EVERYTHING EXCEPT ITEMS--------------------------------*/
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;   
+    font-family: sans-serif;
+    color: #47A3DA;
+}
+.wrapper {
+    width: 85%;
+    margin: 60px auto;
+    border: 3px solid #47A3DA;
+    padding: 20px 10px 10px
+}
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+hr {
+    width: 95%;
+    height: 3px;
+    color: #47A3DA;
+    border: 0px;
+    background-color: #47A3DA;
+    margin: 0 auto;
+}
+/*---------------------EVERYTHING EXCEPT ITEMS--------------------------------*/
+
+/*------------------------------ITEMS-----------------------------------------*/
+.items {
+    font-size: 0;
+}
+.item {
+    display: inline-block;
+    width: 33.333%;
+    font-size: 10px;
+    padding: 30px 0;
+    vertical-align: top;
+    height: 100%;
+    min-height: 500px;
+    max-height: 700px
+}
+.item div {
+    text-align: center;   
+    line-height: 100%;
+}
+img {
+    max-height: 100%;
+    max-width: 60%;
+}
+a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.price {
+    font-size: 22px;
+    line-height: 30px;
+    color: #CECECE;
+    padding: 10px 0 15px;
+}
+.descr {
+    margin: 0 auto;
+    min-height: 100px; //Вообще не решение. Мне стыдно.
+    max-height: 300px;
+    max-width: 75%;
+    font-size: 14px;
+}
+.add {
+    color: white;
+    background-color: #47A3DA;
+    width: 40%;
+    height: 12px;
+    margin: 0 auto;
+    padding: 10px 0px 25px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 2px;    
+}
+.add:hover {                    //Это - так, отсебятина, чтоб адды были
+    cursor: pointer;            //типа кликабельные--------------------
+    background-color: #CECECE;  //-------------------------------------
+}                               //-------------------------------------
+.add:hover::before {            //-------------------------------------
+    display: none;              //-------------------------------------
+}                               //-------------------------------------
+.add::before {
+    content: '+';
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px 3px;
+    font-weight: bolder;
+    display: inline-block;
+}
+/*------------------------------ITEMS-----------------------------------------*/
